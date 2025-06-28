@@ -1,58 +1,67 @@
-# 📍 Geo Customer Insights
-
+📍 Geo Customer Insights
 An interactive Streamlit application for visualizing and analyzing customer locations and revenue using geospatial data.
 
-![Geo Customer Insights Screenshot](https://user-images.githubusercontent.com/your-screenshot-placeholder.png)
+🚀 Features
+✅ Interactive Map (Folium)
 
----
+Visualize customers on an interactive map
 
-## 🚀 Features
+Zoom, pan, and explore regions easily
 
-✅ **Interactive Map (Folium)**
-- Visualize all customers on an interactive map
-- Zoom, pan, and explore regions easily
+✅ Dynamic Filters
 
-✅ **Dynamic Filters**
-- Filter by State, City, and Revenue range
-- Focus on specific segments of your data
+Filter by State, City, and Revenue range
 
-✅ **Summary Statistics**
-- Total customers
-- Total revenue
-- Top-performing and lowest-performing locations
+Focus on specific customer segments
 
-✅ **Smart Business Tips**
-- Automatic suggestions to improve revenue and reach
+✅ Summary Statistics
 
-✅ **Export Options**
-- Download filtered datasets as CSV
+Total customers
 
----
+Total revenue
 
-## 🛠️ Installation
+Top-performing and lowest-performing locations
 
-1️⃣ **Clone this repository**
-```bash
+✅ Smart Business Tips
+
+Automatic suggestions to improve revenue and expand reach
+
+✅ Export Options
+
+Download filtered datasets as CSV
+
+🛠️ Installation
+1️⃣ Clone this repository
+
+bash
+Copy
+Edit
 git clone https://github.com/Abisha9328/geo-customer-insights.git
 cd geo-customer-insights
-
 2️⃣ Install dependencies
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
 3️⃣ Run the app
+
+bash
+Copy
+Edit
 streamlit run app.py
-
-**📁 Project Structure**
-
+📁 Project Structure
+bash
+Copy
+Edit
 geo-customer-insights/
-├── app.py                  # Main Streamlit app
+├── app.py                    # Main Streamlit app
 ├── sample_customers_1000.csv # Example customer dataset
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
 ✨ Demo
-Live app :
+🌐 Live app:
+https://geo-customer-insights-9imvzvhee2nahy3s2xiwgn.streamlit.app/
 
 📄 License
 This project is licensed under the MIT License.
-
